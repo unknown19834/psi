@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+}
+
+#container{
+    height: 1200px;
+    width: 800px;
+    background-color: cyan;
+    padding: 20px;
+    margin: auto;
+}
+
+.gp{
+    border: 2px dotted  blue;
+}
+    
+#menu{
+    background: url(logo.png) no-repeat;
+    background-size: 150px 150px;
+    background-position: right;
+    padding: 20px;
+    height: 150px;
+}
+
+#zawartosc{
+    color: yellow; 
+    height: 70%;
+}
+
+#left{
+    float: left;
+    background-color: red;
+    height: 100%;
+    width: 50%;
+}
+
+#right{
+    background-color: green;
+    height: 100%;
+}
+
+#stopka{
+    color: red;
+    height: 100px;
+    padding: 20px;
+}
+
+#obrazek{
+    height: 100px;
+    float: right;
+}
+
+#arena{
+    
+    font-style: italic;
+}

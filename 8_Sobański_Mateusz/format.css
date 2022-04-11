@@ -1,0 +1,32 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+iframe{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 1850px; 
+    height: 840px;
+}
+table{
+    height: 100%;
+    width: 100%;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: pink;
+}
+td,th{
+    border: 3px solid black;
+    border-radius: 10px;
+}
+th{
+    color: red;
+}
+td{
+    color:green
+}
+h1{
+    color: red;
+}

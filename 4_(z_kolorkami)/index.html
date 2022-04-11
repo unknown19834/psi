@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="format.css">
+
+</head>
+
+<div id="container">
+
+    <h2 id="title">Podstawowe elementy HTML</h2>
+    <a name="kotwica1">Słowo 1 </a><br>
+    <hr>
+    <hr>
+    <h3 id="a1">1. Nagłówki</h3>
+    <p>h1, h2, h3, h4, h5, h6 - h1 - powinien wystąpić na stronie tylko raz.</p>
+    <hr>
+
+    <h3 id="a2">2. Dzielenie wyrazów </h3>
+    <p>wyraz: <strong>Transforamtor</strong></p>
+    <p>transfo&shy;mator</p>
+    <xmp>transfo&shy;mator</xmp>
+    <hr>
+    <h3 id="a3">3. Zakaz łamania wiersza </h3>
+    <p>w Krakowie, w Poznaniu - <strong>w</strong> - żeby nie zostało na końcu linii.</p>
+    <p>
+        w&nbsp; Krakowie<br>
+        w&nbsp; Poznaniu
+    </p>
+    <hr>
+    <h3 id="a4">4. Podpowiedzi do skrótów i wyjaśnienie znaczeń użytych skrótów</h3>
+    <p><abbr title="Profesor - tytuł naukowy">Prof.</abbr> Stephan Hawking jest fizykiem teoretycznym</p>
+    <p> W <acronym title="National Aeronautics and Space Administration">NASA</acronym> zajmują się kosmosem</p>
+    <hr>
+    <h3 id="a5">5. dfn - kiedy po raz pierwszy wyjaśniamy znaczenie jakiegoś wyrazu, termnu, itp.</h3>
+    <p><dfn>Czarna dziura</dfn> to obszar kosmosu, z którego światło nie może się wydostać</p>
+    <hr>
+    <h3 id="a6">6. Adres e-mail</h3>
+    <address>
+        <p>napisz do mnie <a href="mailto:kozia_wulka@wp.pl">kozia_wulka@wp.pl</a></p>
+    </address>
+    <hr>
+    <h3 id="a7">7. Listy numerowane</h3>
+    <ol>
+        <li>ziemniaki </li>
+        <li>jaja</li>
+        <li>sok</li>
+    </ol>
+    <hr>
+    <h3 id="a8">8. Lista nie numerowana</h3>
+    <ul>
+        <li>ziemniaki </li>
+        <li>jaja</li>
+        <li>sok</li>
+    </ul>
+
+    <ul>
+        <li>ziemniaki</li>
+        <ol>
+            <li>rodzaj 1 <a href="www.onet.pl">link do jaj</a></li>
+            <li>rodzaj 2</li>
+        </ol>
+        <li>jaja</li>
+        <li>sok</li>
+    </ul>
+    <hr>
+    <h3 id="a9">9. Podstrony (linki do innych plików)</h3>
+    <ul>
+        <li><a href="1.html" target="_self">Link do 1.html</a></li>
+        <li><a href="2.html">Link do 2.html</a></li>
+        <li><a href="podstrony/3.html">Link do 3.html</a></li>
+        <li><a href="../4_test/4.html">Link do 4.html</a></li>
+    </ul>
+    <hr>
+    <h3 id="a10">10. Otwierania stron</h3>
+    <ol>
+        <li><a href="https://www.onet.pl" target="_blank">Otwieranie w nowym oknie</a></li>
+        <li><a href="https://www.onet.pl" target="_self">Otwieranie w tym samym oknie </a></li>
+        <li><a href="https://www.onet.pl" target="_frame">Otwieranie w ramce (frame)</a></li>
+        <li><a href="https://www.onet.pl" target="_top">Otwieranie w ramce (top)</a></li>
+        <li><a href="https://www.onet.pl" target="_parent">Otwieranie w ramce (parent)</a></li>
+        <li><a href="https://www.onet.pl" target="ramka">Onet.pl - w ramce</a></li>
+        <li><a href="http://psi-pai.cba.pl" target="ramka">Moja strona w ramce</a></li>
+        <li><a href="1.html" target="ramka">Podstrona w ramce</a></li>
+        <li><iframe name="ramka"></iframe></li>
+
+    </ol>
+    <hr>
+    <h3 id="a11">11. Wstawianie obrazka</h3>
+    <img src="logo.png" width="100px" height="100px"> <br>Formatowanwanie w img<br>
+    <img src="logo.png" id="logo"> <br> Formatowanie z css<br>
+    <hr>
+    <h3 id="a11">11. Indeks górny i dolny</h3>
+    <p>Na początku września poznaliśmy wzór
+        E=mc<sup>2</sup><br>
+        CO<sub>2</sub>
+    </p>
+    <hr>
+    <h3 id="a12">12. Wyróżnienie - &#60;Strong&#62;</h3>
+    <strong>Uwaga! </strong>- strong<br>
+    <b>Uwaga! </b>- b<br>
+    <hr>
+    <h3 id="a13">13. Pochylenie - &#60;em&#62;</h3>
+    <p>Myślę, że <em>Ewa</em> była pierwsza</p>
+
+    <hr>
+    <h3 id="a14">14. Blockquote - cytaty</h3>
+    <blockquote cite="http://psi-pai.cba.pl">
+        <p>Jakiś cytat</p>
+    </blockquote>
+    <hr>
+    <h3 id="a15">15. Ktowice html</h3>
+    <a href="#kotwica1">Słowo 1</a><br>
+    <a href="1.html/#kotwica">Do innej strony</a>
+
+    <h3 id="a16">16. Tabele</h3>
+    <!--<table border="2">
+        <tr>
+            <th>123</th>
+            <th></th>
+            <th colspan="4">123</th>
+        </tr>
+        <tr>
+            <th rowspan="4">123</th>
+            <th rowspan="4">123</th>
+            <th rowspan="4">123</th>
+
+        </tr>
+        <tr>
+            <th>123</th>
+            <th>123</th>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>k1</th>
+            <th>k2</th>
+            <th colspan="2">k3</th>
+        </tr>
+        <tr>
+            <th rowspan="3">123</th>
+            <th rowspan="3">123</th>
+        </tr>
+        <tr>
+            <th colspan="2">123</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+    </table>-->
+
+    <h3 id="a17">17. Obrazki/dzwęki/filmy</h3>
+    <iframe width="420" height="315"
+    src="https://www.youtube.com/embed/6s7gTm5WwqU">
+    </iframe> 
+    <br><hr>  
+    <video  controls width="420" height="315">
+        <source src="road.mp4">
+    </video>
+    <br><hr>
+    <audio controls>
+        <source src="mp.mp3" type="audio/mpeg">
+    </audio>
+</div>
+
+<body>
+</body>
+
+</html>

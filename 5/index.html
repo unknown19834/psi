@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="format.css" rel="stylesheet">
+    <title>Zadania z css</title>
+</head>
+
+<body>
+
+    <h2>Zadanie 1</h2>
+    <style>
+        p {
+            color: yellow;
+        }
+
+        p.intro::first-letter {
+            color: orangered;
+            font-size: xx-large;
+        }
+
+        #para1 {
+            color: blue;
+        }
+
+        .colortext {
+            color: green;
+        }
+
+        body {
+            background-color: burlywood;
+            background: url("tlo.gif") no-repeat center;
+
+        }
+    </style>
+    <h1 style="color:pink">This is a Heading</h1>
+    <!--Najważniejsze jest style które jest w nawiasie. Drugi najważniejszy to style w html a najniżej jest format.css-->
+    <h1>This is a Heading</h1>
+    <p class="intro">This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+
+    <h2>Zadanie 2</h2>
+    <p id="para1">This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+
+    <h2>Zadanie 3</h2>
+    <p>This is a paragraph.</p>
+    <p class="colortext">This is another paragraph.</p>
+    <p class="colortext">This is also a paragraph.</p>
+    
+</body>
+
+</html>
